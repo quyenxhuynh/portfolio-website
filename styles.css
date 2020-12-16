@@ -1,0 +1,228 @@
+body {
+    color: #666666;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Karla', sans-serif;
+    line-height: 25px;
+}
+
+footer {
+    color: white;
+    background: #666666;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 15px auto;
+    padding: 0;
+    width: 50%;
+}
+
+img {
+    pointer-events: none;
+}
+
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #464646;
+    text-decoration: none;
+    background-color: #e4f4ff;
+    font-weight: 700;
+}
+
+.name {
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.name a:hover{
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 18px;
+    background-color: white;
+}
+
+.job-title {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.bio {
+    font-size: 12px;
+    background-color: #FAFDFF;
+    border: 3px solid #E2F2FF;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 30px;
+    line-height: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.links {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.sidebar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 3px 0 3px rgba(0, 0, 0, 0.19);
+}
+
+.side-text {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.main {
+    background-color: #5f6366;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    background-color: #cce7ff;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section2 {
+    background-color: #dceeff;
+    padding: 25px;
+}
+
+.section3 {
+    background-color: #cce7ff;
+    padding: 15px 15px 25px 25px;
+}
+
+.blue-bg {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    flex: 1 1 0;
+    margin: 10px;
+}
+
+.box-image {
+    width: 100%; 
+    height: 250px;
+    overflow: hidden;
+}
+
+.box-image img {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%; 
+    pointer-events: none;
+}
+
+.box-header {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 20px 0 20px;
+}
+
+.box-date {
+    font-size: 14px;
+    margin: 0 15px 0 0;
+    font-style: italic;
+}
+
+.box-subheader {
+    font-size: 16px;
+    margin: 0 0 0 20px;
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 10px auto;
+    padding: 0;
+    width: 90%;
+}
+
+.box-description {
+    font-size: 14px;
+    margin: 0 15px 15px 20px;
+}
+ 
+.section-heading {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 25px 25px 5px 10px;
+    text-align: left;
+}
+
+.box-header a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.box-subheader a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.box li {
+    margin: 0 5px;
+}
