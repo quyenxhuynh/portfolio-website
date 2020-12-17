@@ -190,6 +190,14 @@ a:hover {
     text-align: left;
 }
 
+.boxes-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
 .box hr {
     display: block; 
     height: 1px;
@@ -230,7 +238,6 @@ a:hover {
 
 .tag-row {
     display: flex;
-
     justify-content: flex-start;
     flex-direction: row;
     flex: 1 1 0;
