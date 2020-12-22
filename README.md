@@ -1,5 +1,5 @@
 Last Updated: 12/21/2020
-Deployed: (quyenxhuynh.com)
+Deployed: [quyenxhuynh.com](quyenxhuynh.com)
 
 ## Welcome
 ![image of website](https://i.imgur.com/P28Up1O.png)
@@ -9,7 +9,7 @@ This is my portfolio website built with Django! It is mostly composed of HTML, C
 ## Contact
 Quyen Huynh - [Email](qh8ar@virginia.edu)
 
-Project Link - (quyenxhuynh)
+Project Link - [quyenxhuynh.com](quyenxhuynh.com)
 
 ## Acknowledgements
 - [gitignore file](http://gitignore.io)
