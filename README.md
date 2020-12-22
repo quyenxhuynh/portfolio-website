@@ -19,29 +19,31 @@ Project Link - (https://github.com/quyenxhuynh/quyenxhuynh/)
 - [ ] Images
 - [x] Skills
 - [x] Education
-- [ ] Experience
-- [ ] Projects
+- [x] Experience
+- [x] Projects
 
 ### Resumé
 - [ ] CV with Timeline
 - [ ] PDF Version(s)
 
 ### Develop
-- [ ] Tags
-- [ ] Finder 
-- [ ] Connect 4 AI
-- [ ] TheCourseForum
+- [x] Tags
+- [x] Finder 
+- [x] Connect 4 AI
+- [x] QuinnBot
+- [x] Reddit Notifs
 
 ### Design
 - [ ] Finder
 - [ ] Collab Redesign
 - [ ] Mobile Grade Tracker
+- [ ] Journalism App
 
 ### Others
 - [ ] Individual Pages w/ Ideation
 - [ ] Cross-references
 - [x] .gitignore
-- [ ] Embed all links
+- [x] Embed all links
 - [ ] Add profile picture
 - [ ] Mobile + small screen integration
 - [ ] Dark mode
