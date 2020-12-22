@@ -7,7 +7,7 @@ This is my portfolio website built with Django! It is mostly composed of HTML, C
 
 
 ## Contact
-Quyen Huynh - [Email](qh8ar@virginia.edu)
+Quyen Huynh - [qh8ar@virginia.edu](qh8ar@virginia.edu)
 
 Project Link - [quyenxhuynh.com](quyenxhuynh.com)
 
