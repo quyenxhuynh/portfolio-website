@@ -26,7 +26,7 @@ Project Link - [quyenxhuynh.com](quyenxhuynh.com)
 
 ### Resumé
 - [ ] CV with Timeline
-- [ ] PDF Version(s)
+- [x] PDF Version(s)
 
 ### Develop
 - [x] Tags
