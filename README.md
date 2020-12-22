@@ -1,6 +1,5 @@
-Last Updated: 12/21/2020
-
-Deployed: [quyenxhuynh.com](quyenxhuynh.com)
+- Last Updated: 12/21/2020
+- Deployed version: [quyenxhuynh.com](quyenxhuynh.com)
 
 ## Welcome
 This is my portfolio website built with Django! It is mostly composed of HTML, CSS, and JavaScript from scratch :)
