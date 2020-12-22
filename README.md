@@ -1,10 +1,11 @@
 Last Updated: 12/21/2020
+
 Deployed: [quyenxhuynh.com](quyenxhuynh.com)
 
 ## Welcome
+This is my portfolio website built with Django! It is mostly composed of HTML, CSS, and JavaScript from scratch :)
 ![image of website](https://i.imgur.com/P28Up1O.png)
 
-This is my portfolio website built with Django! It is mostly composed of HTML, CSS, and JavaScript from scratch :)
 
 ## Contact
 Quyen Huynh - [Email](qh8ar@virginia.edu)
