@@ -143,11 +143,6 @@ a:hover {
 .section2 {
     background-color: #dceeff;
     padding: 25px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .section3 {
@@ -191,7 +186,7 @@ a:hover {
 
 .box-date {
     font-size: 14px;
-    margin: 0 15px 0 0;
+    /* margin: 0 15px 0 0; */
     font-style: italic;
 }
 
@@ -204,7 +199,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
     text-align: left;
 }
 
@@ -311,7 +306,7 @@ a:hover {
     }
 
     .container {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: 100%;
     }
 
