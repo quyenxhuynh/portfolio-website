@@ -45,5 +45,5 @@ This is my portfolio website built with Django! It is mostly composed of HTML, C
 - [x] .gitignore
 - [x] Embed all links
 - [ ] Add profile picture
-- [ ] Mobile + small screen integration
+- [x] Mobile + small screen integration
 - [ ] Dark mode
