@@ -119,6 +119,10 @@ a:hover {
 
 .main {
     background-color: #cce7ff;
+    overflow-x: scroll;
+    overflow-y: auto;
+    overflow: hidden;
+    flex-flow: column wrap; 
 }
 
 .left-align {
