@@ -119,9 +119,8 @@ a:hover {
 
 .main {
     background-color: #cce7ff;
-    overflow-x: scroll;
+    overflow-x: visible;
     overflow-y: auto;
-    overflow: hidden;
     flex-flow: column wrap; 
 }
 
@@ -205,6 +204,7 @@ a:hover {
     justify-content: space-between;
     align-items: flex-start;
     text-align: left;
+    overflow-x: visible;
 }
 
 .boxes-row {
