@@ -30,7 +30,6 @@ window.addEventListener('resize', function() {
         container.style.gridTemplateColumns = "25% 75%";
         sidebar.style.display = "block";
         main.style.display = "block";
-        hide()
     }
     else {
         sidebar.style.display = "none";
