@@ -33,7 +33,7 @@ window.addEventListener('resize', function() {
     }
     else {
         sidebar.style.display = "none";
-        container.style.display = "flex";
+        container.style.display = "grid";
         container.style.gridTemplateColumns = "100%";
         main.style.display = "block";
         show.style.display = "block";
