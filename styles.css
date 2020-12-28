@@ -15,6 +15,11 @@ header {
     flex-direction: row;
 }
 
+ul {
+    padding: 0 0 0 10%;
+    margin: 0;
+}
+
 footer {
     color: white;
     background: #666666;
