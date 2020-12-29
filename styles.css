@@ -207,6 +207,7 @@ a:hover {
 .test-row {
     display: flex;
     flex-direction: row;
+    flex-shrink: 0;
     /* align-items: stretch; */
     /* align-content: stretch; */
 }
