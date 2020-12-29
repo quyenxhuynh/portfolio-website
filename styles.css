@@ -208,8 +208,18 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
-    /* align-items: stretch; */
-    /* align-content: stretch; */
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.test-box {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    flex: 1 1 0;
+    /* margin: 10px; */
+    align-items: stretch;
+    align-content: stretch;
 }
 
 .boxes-row {
@@ -347,7 +357,7 @@ a:hover {
         font-size: 8;
     }
     
-    /* .test-row {
+    .test-row {
         flex-direction: column;
-    } */
+    }
 }
