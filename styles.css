@@ -164,6 +164,7 @@ a:hover {
     border-radius: 15px;
     flex: 1 1 0;
     margin: 10px;
+    align-items: stretch;
 }
 
 .box-image {
@@ -186,7 +187,7 @@ a:hover {
 
 .box-date {
     font-size: 14px;
-    margin: 0 15px 0 0;
+    margin: 0 15px 0 20px;
     font-style: italic;
 }
 
