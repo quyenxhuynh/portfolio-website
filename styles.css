@@ -205,19 +205,12 @@ a:hover {
 }
 
 .test-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
+    
 }
 
 .test-box {
-    display: flex;
     background-color: white;
     border-radius: 15px;
-
-    flex: 1 1 auto;
-    margin: 10px;
 }
 
 .boxes-row {
