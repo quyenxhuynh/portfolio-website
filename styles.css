@@ -204,6 +204,13 @@ a:hover {
     text-align: left;
 }
 
+.test-row {
+    display: flex;
+    flex: row;
+    align-items: stretch;
+    align-content: stretch;
+}
+
 .boxes-row {
     display: flex;
     flex-direction: row;
