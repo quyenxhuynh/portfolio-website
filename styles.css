@@ -219,6 +219,16 @@ a:hover {
     align-items: stretch;
 }
 
+.test-box hr {
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 10px auto;
+    padding: 0;
+    width: 90%;
+}
+
 .boxes-row {
     display: flex;
     flex-direction: row;
@@ -298,6 +308,10 @@ a:hover {
         flex-direction: column;
         align-items: stretch;
     }
+
+    .test-row {
+        display: block;
+    }
 }
 
 @media only screen and (max-width:800px) {
@@ -359,7 +373,7 @@ a:hover {
         font-size: 8;
     }
     
-    .test-row {
+    /* .test-row {
         display: block;
-    }
+    } */
 }
