@@ -189,6 +189,7 @@ a:hover {
     font-size: 14px;
     margin: 0 15px 0 20px;
     font-style: italic;
+    align-items: flex-end;
 }
 
 .box-subheader {
@@ -200,7 +201,6 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
     text-align: left;
 }
 
@@ -303,22 +303,9 @@ a:hover {
 }
 
 
-@media only screen and (max-width:600px) {
-    .box-row {
-        flex-direction: column;
-        align-items: stretch;
-    }
 
-    .test-row {
-        display: block;
-    }
 
-    .box-description {
-        padding: 0 0 15px 0;
-    }
-}
-
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:900px){
     body {
         font-size: 12px;
     }
@@ -329,7 +316,6 @@ a:hover {
 
     .box-header {
         font-size: 18px;
-        /* padding: 15px 0 0 0; */
     }
 
     .box-subheader {
@@ -341,7 +327,6 @@ a:hover {
     }
 
     .container {
-        /* display: grid; */
         grid-template-columns: 100%;
     }
 
@@ -357,23 +342,35 @@ a:hover {
         text-align: left;
     }
 
-    .box {
-        flex-direction: column;
-    }
-
-    .section2 {
-        flex-direction: column;
-    }
-
-    .section3 {
+    .box, .section2, .section3 {
         flex-direction: column;
     }
 
     .box-date {
-        font-size: 8;
+        font-size: small;
     }
-    
-    /* .test-row {
+
+    .box-row {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .box-row {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+
+    .test-row {
         display: block;
-    } */
+    }
+
+    .box-description {
+        padding: 0 0 15px 0;
+    }
+
+    .box-date {
+        font-size: 14px;
+    }
 }
