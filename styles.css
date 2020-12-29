@@ -312,6 +312,10 @@ a:hover {
     .test-row {
         display: block;
     }
+
+    .box-description {
+        padding: 0 0 15px 0;
+    }
 }
 
 @media only screen and (max-width:800px) {
@@ -330,10 +334,6 @@ a:hover {
 
     .box-subheader {
         font-size: 16px;
-    }
-
-    .box-description {
-        padding: 0 0 20px 0;
     }
 
     header {
