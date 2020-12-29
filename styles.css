@@ -345,4 +345,8 @@ a:hover {
     .box-date {
         font-size: 8;
     }
+    
+    .test-row {
+        flex-direction: column;
+    }
 }
