@@ -183,6 +183,7 @@ a:hover {
     font-size: 20px;
     font-weight: 500;
     margin: 10px 20px 0 20px;
+    padding: 20px 0 0 0;
 }
 
 .box-date {
@@ -241,6 +242,7 @@ a:hover {
 .box-description {
     font-size: 14px;
     margin: 0 15px 15px 20px;
+    padding: 0 0 20px 0;
 }
  
 .section-heading {
