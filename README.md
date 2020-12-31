@@ -1,8 +1,8 @@
-- Last Updated: 12/28/2020
+- Last Updated: 12/29/2020
 - Deployed version: [quyenxhuynh.com](quyenxhuynh.com)
 
 ## Welcome
-This is my portfolio website built with Django! It is mostly composed of HTML, CSS, and JavaScript from scratch :)
+This is my portfolio website built mostly composed of HTML, CSS, and JavaScript from scratch :)
 ![image of website](https://i.imgur.com/P28Up1O.png)
 
 
