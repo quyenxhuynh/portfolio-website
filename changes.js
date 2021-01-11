@@ -6,7 +6,7 @@ var main = document.getElementsByClassName("main")[0];
 
 show.onclick = function() {
     sidebar.style.display = "block";
-    container.style.display = "grid";
+    // container.style.display = "grid";
     container.style.gridTemplateColumns = "100%";
     main.style.display = "none";
     show.style.display = "none";
@@ -16,7 +16,7 @@ show.onclick = function() {
 
 hide.onclick = function hideSide() {
     sidebar.style.display = "none";
-    container.style.display = "flex";
+    // container.style.display = "flex";
     container.style.gridTemplateColumns = "100%";
     main.style.display = "block";
     show.style.display = "block";
@@ -25,11 +25,21 @@ hide.onclick = function hideSide() {
 }
 
 window.addEventListener('resize', function() {
-    if (window.innerWidth >= 800) { // desktop
+    if (window.innerWidth >= 900) { // desktop
         container.style.display = "grid";
         container.style.gridTemplateColumns = "25% 75%";
         sidebar.style.display = "block";
         main.style.display = "block";
+    }
+    else if (window.innerWidth >= 600) {
+        container.style.display = "grid";
+        container.style.gridTemplateColumns = "100%";
+        main.style.display = "block";
+        show.style.display = "block";
+        hide.style.display = "none";
+        sidebar.style.boxShadow = "3px 0 3px rgba(0, 0, 0, 0.19);"
+        sidebar.style.display = "none";
+
     }
     else {
         sidebar.style.display = "none";
